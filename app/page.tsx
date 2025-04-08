@@ -453,7 +453,7 @@ export default function Page() {
                     // loop
                     // muted
                     // playsInline
-                    className="h-auto w-24 rounded-full object-cover block sm:hidden"
+                    className="h-auto w-24 rounded-full object-cover hidden sm:block"
                   />
                 </div>{" "}
                 {/* Suggestion buttons - first row */}
