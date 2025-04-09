@@ -415,7 +415,7 @@ export default function Page() {
               alt="logo"
               width={150}
               height={150}
-              className="size-[2rem] sm:h-[4rem] w-full"
+              className="size-[2rem] sm:h-[3.5rem] w-full"
             />
           </div>
         </div>
@@ -429,13 +429,12 @@ export default function Page() {
               // Welcome screen with suggestions
               <div className="py-20 text-center max-w-4xl mx-auto">
                 <div className="flex flex-col sm:flex-row items-center size-fit gap-4 mx-auto h-fit mb-14">
-                  <img
-                    src="/justine.jpeg"
-                    alt="Justine"
-                    // autoPlay
-                    // loop
-                    // muted
-                    // playsInline
+                  <video
+                    src="/justine.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                     className="h-auto w-24 rounded-full object-cover block sm:hidden"
                   />
                   <motion.h2
@@ -446,13 +445,12 @@ export default function Page() {
                     <AuroraText className="text-3xl">Justine</AuroraText>,
                     l'assistante alumni de l'École des Roches.
                   </motion.h2>
-                  <img
-                    src="/justine.jpeg"
-                    alt="Justine"
-                    // autoPlay
-                    // loop
-                    // muted
-                    // playsInline
+                  <video
+                    src="/justine.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                     className="h-auto w-24 rounded-full object-cover hidden sm:block"
                   />
                 </div>{" "}
